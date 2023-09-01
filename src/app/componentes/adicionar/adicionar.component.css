@@ -1,0 +1,13 @@
+section {
+  display: flex;
+  justify-content: center;
+  padding-top: 240px;
+  padding-right: 110px;
+}
+
+p {
+  font-size: 28px;
+  font-family: 'ABeeZee', sans-serif;
+  color: #293C52;
+  opacity: 0.7;
+}

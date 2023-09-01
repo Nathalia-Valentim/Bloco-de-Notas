@@ -1,0 +1,30 @@
+ /*Nota*/
+ .criarNota {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  margin-top: -400px;
+  margin-left: -140px;
+}
+
+.cabecalho__criarNota {
+  background-color: #293C52;
+  display: flex;
+  align-items: center;
+  width: 240px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+.icons__nota {
+  padding: 18px;
+  font-size: 30px;
+  color: #ffe0c0;
+}
+
+.criarNota__texto {
+  font-size: 30px;
+  font-family: 'ABeeZee', sans-serif;
+  color: #ffe0c0;
+}
