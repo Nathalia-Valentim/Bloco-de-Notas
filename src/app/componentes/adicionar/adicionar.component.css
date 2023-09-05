@@ -1,4 +1,4 @@
-section {
+.textoAdd {
   display: flex;
   justify-content: center;
   padding-top: 240px;
@@ -10,4 +10,11 @@ p {
   font-family: 'ABeeZee', sans-serif;
   color: #293C52;
   opacity: 0.7;
+}
+
+.adicionarComp {
+  display: flex;
+  justify-content: center;
+  padding-top: 240px;
+  padding-right: 110px;
 }

@@ -1,3 +1,11 @@
-<section>
-  <p>As notas criadas serão adicionadas aqui...</p>
-</section>
+<div *ngIf="listaNotas.length > 0, else semNotas" class="adicionarComp">
+  <div *ngFor="let nota of listaNotas">
+    <app-caixa-nota [nota]="nota"></app-caixa-nota>
+  </div>
+</div>
+
+<ng-template #semNotas>
+  <div class="textoAdd">
+      <p>As notas criadas serão adicionadas aqui...</p>
+  </div>
+</ng-template>

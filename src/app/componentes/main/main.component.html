@@ -1,19 +1,9 @@
 <section class="criarNota">
-  <button class="cabecalho__criarNota" routerLink="/criar-nota">
+  <button class="cabecalho__criarNota" routerLink="/criar-nota" >
       <i class="fa-solid fa-plus icons__nota"></i>
       <p class="criarNota__texto">Criar Nota</p>
   </button>
 </section>
 
-<div *ngIf="listaNotas.length > 0, else semNotas">
-  <div *ngFor="let nota of listaNotas">
-    <app-caixa-nota [nota]="nota"></app-caixa-nota>
-  </div>
-</div>
 
-<ng-template #semNotas>
-  <div>
-      <p>As notas criadas serão adicionadas aqui...</p>
-  </div>
-</ng-template>
 
