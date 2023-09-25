@@ -7,6 +7,7 @@ import { AdicionarComponent } from './componentes/adicionar/adicionar.component'
 import { CaixaNotaComponent } from './componentes/caixa-nota/caixa-nota.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NgModule } from '@angular/core';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

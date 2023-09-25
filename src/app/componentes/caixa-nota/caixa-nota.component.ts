@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Nota } from '../nota';
 
 @Component({
   selector: 'app-caixa-nota',
@@ -7,9 +8,10 @@ import { Component, Input } from '@angular/core';
 })
 
 export class CaixaNotaComponent {
-  @Input() nota = {
-    titulo: "AAAAAAA",
-    conteudo:"TESTE",
-    tipo: "tipo1"
+  @Input() nota:Nota = {
+    id: 0,
+    titulo: "",
+    conteudo:"",
+    tipo: ""
   }
 }
