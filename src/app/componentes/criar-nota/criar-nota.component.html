@@ -1,3 +1,16 @@
+<input
+  type="text"
+  [(ngModel)]="nota.titulo"
+  >Título
+
+<input type="text" [(ngModel)]="nota.conteudo">Conteudo
+
+<select name="tipo" id="tipo">
+  <option value="tipo1">Azul</option>
+  <option value="tipo2">Lilás</option>
+  <option value="tipo3">Bege</option>
+</select>
+
 <div class="criarNota__componentes">
   <div class="criarNota__cabe">
     <i class="fa-solid fa-chevron-up fa-rotate-270"></i>
@@ -5,5 +18,7 @@
     <i class="fa-solid fa-paperclip"></i>
     <i class="fa-solid fa-book"></i>
     <i class="fa-solid fa-ellipsis-vertical"></i>
+
+    <button (click)="criarNota()">Criar Nota</button>
   </div>
 </div>
